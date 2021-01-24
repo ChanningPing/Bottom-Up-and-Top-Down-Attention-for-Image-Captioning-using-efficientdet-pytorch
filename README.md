@@ -15,3 +15,8 @@ I tried many variations while following what the paper said.
 ## bottom-features : efficientdet
 I used efficientdet, which recently has shown high performance in the field of image detection.
 Because my environment was colab, there was a limit(gpu), so it was best to use efficientdet version 1.
+
+
+
+## visual_genome_dataset
+Dealing with visual genome data was very difficult. I think it is because the data itself is made with various purposes. I spent a lot of time organizing these data into a dataframe for the capture task (although the api provided by the paper's original author existed, it just produced a data form that fits me, which is organized in the 'data' directory).
