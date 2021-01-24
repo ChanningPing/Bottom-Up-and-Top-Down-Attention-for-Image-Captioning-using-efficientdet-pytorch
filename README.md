@@ -27,6 +27,14 @@ download images here : [image1](https://cs.stanford.edu/people/rak248/VG_100K_2/
 download  caption annotation here : [annotation](http://visualgenome.org/static/data/dataset/attributes.json.zip)
 
 
-Also, when you get a bottom-up-features, you will not cover all of the classes, but 1600 classes, which you refer to the original github of paperd.
+Also, when you get a bottom-up-features, you will not cover all of the classes, but 1600 classes, which you refer to the original github of paper.
+
+
+
+## encoder : get 10 features (originally 36 features in paper)
+In the original paper, 36 features were extracted and attention was paid to. However, I had a limit of gpu, so I shortened it to 10, but there was no big difference between 36 and performance. Intuitively, 36 objects are not needed to create a single caption, so I think it would be okay to use 10 objects.
+
+
+
 
 
