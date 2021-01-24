@@ -35,7 +35,7 @@ Dealing with visual genome data was very difficult. I think it is because the da
  download images here : [image1](https://cs.stanford.edu/people/rak248/VG_100K_2/images.zip), [image2](https://cs.stanford.edu/people/rak248/VG_100K_2/images2.zip)
 
 
- download  caption annotation here : [annotation](http://visualgenome.org/static/data/dataset/attributes.json.zip)
+ download  caption annotation here : (http://visualgenome.org/static/data/dataset/attributes.json.zip)
 
 
 Also, when you get a bottom-up-features, you will not cover all of the classes, but 1600 classes, which you refer to the original github of paper.
