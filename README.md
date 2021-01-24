@@ -70,3 +70,5 @@ In my case, I had a hard time because I couldn't overfitting.;;
 (Overfitting is more difficult when the batch size is large.)
 
 
+2. I had a lot of stress from gpu because the working environment was colab. I introduce [automatic_mixed_precision](https://arxiv.org/abs/1710.03740) that can efficiently use gpu.
+In my case, the usage of gpu fell in half and I could increase the batch size from 16 to 36.
