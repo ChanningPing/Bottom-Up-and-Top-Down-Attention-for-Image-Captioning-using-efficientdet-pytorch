@@ -18,6 +18,10 @@ net.model.encoder.backbone.requires_grad_ = False
 net.model.encoder.effdet.requires_grad_ = False
 
 
+
+
+
+
 # caption_params : exclude effdet params
 
 caption_params = []
@@ -30,7 +34,9 @@ modules = [net.model.attend_module,
 for module in modules:
   caption_params += list(module.parameters())
 
-print(len(caption_params))
+  
+  
+  
 
 
 # caption_fitter : automatic_mixed_precision
@@ -183,6 +189,10 @@ class caption_fitter:
       logger.write(f'{message}\n')
       
 
+      
+      
+      
+      
 # caption_runner
 
 def caption_runner():
