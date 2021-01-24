@@ -78,4 +78,9 @@ In my case, the usage of gpu fell in half and I could increase the batch size fr
 
 ## reference
 
-I got a lot of help from [https://github.com/poojahira/image-captioning-bottom-up-top-down#-requirements-]
+I got a lot of help from (https://github.com/poojahira/image-captioning-bottom-up-top-down)
+
+and (https://github.com/hengyuan-hu/bottom-up-attention-vqa)
+
+
+
