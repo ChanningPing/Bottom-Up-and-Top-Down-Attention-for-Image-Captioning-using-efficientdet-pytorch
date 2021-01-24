@@ -65,7 +65,12 @@ resnet_encoder = encoder(resnet = resnet,
                          predict_function = effdet_predict, 
                          fea_num = hyper_parameters['features_number'],
                          conf_thres = hyper_parameters['confidence_threshold'])
-        
+       
+  
+  
+  
+  
+  
         
 # attend_module
 
@@ -97,6 +102,11 @@ attend_net = attend_module(features_dim = 2048,
                            
 
 
+  
+  
+  
+  
+  
 # gru_decoder : bottom-up-top-down
 
 class decoder(nn.Module):
