@@ -12,9 +12,21 @@ I tried many variations while following what the paper said.
         
 
 
+
+
+
+
+
 ## bottom-features : efficientdet
 I used efficientdet, which recently has shown high performance in the field of image detection.
 Because my environment was colab, there was a limit(gpu), so it was best to use efficientdet version 1.
+
+
+
+
+
+
+
 
 
 
@@ -28,6 +40,14 @@ download  caption annotation here : [annotation](http://visualgenome.org/static/
 
 
 Also, when you get a bottom-up-features, you will not cover all of the classes, but 1600 classes, which you refer to the original github of paper.
+
+
+
+
+
+
+
+
 
 
 
