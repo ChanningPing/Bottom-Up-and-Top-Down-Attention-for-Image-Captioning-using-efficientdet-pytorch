@@ -11,5 +11,7 @@ I tried many variations while following what the paper said.
         Second, I use GRU instead of LSTM as a caption_model. This resulted in faster convergence.
         
 
-<bottom-up-features>
-My 
+
+## bottom-features : efficientdet
+I used efficientdet, which recently has shown high performance in the field of image detection.
+Because my environment was colab, there was a limit(gpu), so it was best to use efficientdet version 1.
