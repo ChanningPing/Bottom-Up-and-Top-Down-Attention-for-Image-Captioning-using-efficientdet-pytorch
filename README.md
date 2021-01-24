@@ -64,3 +64,8 @@ I tried to evaluate with visual genome dataset, but due to the nature of the dat
 
 
 
+## tip for user
+Due to the nature of the capture task, evaluation is difficult, so it is recommended to write a code first and overfitting a small amount of data to see if the model works properly. After confirming that it is overfitting, train on a lot of data and try to evaluate it like bleu for coco data.
+In my case, I had a hard time because I couldn't overfitting.;;
+(Overfitting is more difficult when the batch size is large.)
+
