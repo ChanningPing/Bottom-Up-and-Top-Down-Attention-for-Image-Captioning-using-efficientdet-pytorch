@@ -1,6 +1,8 @@
 # Bottom-Up-and-Top-Down-Attention-for-Image-Captioning-pytorch
 
-<INTRO>
+
+
+## getting started
 This repo is a pytorch implementation of Bottom-up and Top-down Attention for Image Captioning.
 I tried many variations while following what the paper said.
 
