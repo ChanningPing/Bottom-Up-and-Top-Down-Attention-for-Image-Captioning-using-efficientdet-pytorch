@@ -78,11 +78,8 @@ In my case, the usage of gpu fell in half and I could increase the batch size fr
 
 ## reference
 
-I got a lot of help from (https://github.com/poojahira/image-captioning-bottom-up-top-down)
-
-and (https://github.com/hengyuan-hu/bottom-up-attention-vqa)
-
-and (https://github.com/rwightman/efficientdet-pytorch)
+I got a lot of help from [poojahira-Image Caption task](https://github.com/poojahira/image-captioning-bottom-up-top-down
+ and [hengyuan-hu-VQA task](https://github.com/hengyuan-hu/bottom-up-attention-vqa), [rwightman-efficientdet](https://github.com/rwightman/efficientdet-pytorch)
 
 
 thank you
