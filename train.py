@@ -141,14 +141,14 @@ class caption_fitter:
       batch = images.shape[0]
      
       self.optimizer.zero_grad()
-
-      torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, 
-                                            self.model.parameters()), 0.25)
       
       with torch.cuda.amp.autocast(): 
         loss, scores = self.model(images.to(device), input_ids.to(device), targets.to(device))  
 
       scaler.scale(loss).backward() 
+      
+      torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, 
+                                            self.model.parameters()), 0.25)
       scaler.step(self.optimizer) 
       scaler.update()
 
