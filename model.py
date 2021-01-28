@@ -168,8 +168,8 @@ class decoder(nn.Module):
           torch.cat([batch_weighted_features, h1], dim = 1), 
           h2)
       
-      pred = self.fc_layer(h2) # (N, vocab_dim)
-      preds.append(self.dropout(pred.unsqueeze(1)))
+      pred = self.fc_layer(self.dropout(h2)) # (N, vocab_dim)
+      preds.append(pred.unsqueeze(1))
        
       if (input_ids is not None) & (step != self.seq_len - 1): # train & valid
         input_embed = self.embed_layer(input_ids[:, step + 1]) 
