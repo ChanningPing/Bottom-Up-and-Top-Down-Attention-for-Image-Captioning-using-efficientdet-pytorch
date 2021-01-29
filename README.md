@@ -13,7 +13,7 @@ I tried many variations while following what the paper said.
 
 
 
-
+/
 
 
 
@@ -24,7 +24,7 @@ Because my environment was colab, there was a limit(gpu), so it was best to use 
 
 
 
-
+/
 
 
 
@@ -43,7 +43,7 @@ Also, when you get a bottom-up-features, you will not cover all of the classes, 
 
 
 
-
+/
 
 
 
@@ -55,12 +55,15 @@ In the original paper, 36 features were extracted and attention was paid to. How
 
 
 
-
+/
 
 
 ## evaluation
 I tried to evaluate with visual genome dataset, but due to the nature of the data, we did not proceed with evaluation such as bleu because it had annotation that fits the dense capture task rather than the normal one. If I have time later, I will try using coco dataset.
 
+
+
+/
 
 
 
@@ -76,6 +79,13 @@ In my case, the usage of gpu fell in half and I could increase the batch size fr
 
 
 
+
+/
+
+
+
+
+
 ## reference
 
 I got a lot of help from [poojahira-Image Caption task](https://github.com/poojahira/image-captioning-bottom-up-top-down)
@@ -83,6 +93,3 @@ I got a lot of help from [poojahira-Image Caption task](https://github.com/pooja
 
 
 thank you
-
-
-
