@@ -174,7 +174,7 @@ class decoder(nn.Module):
       if (input_ids is not None) & (step != self.seq_len - 1): # train & valid
         input_embed = self.embed_layer(input_ids[:, step + 1]) 
       else: # inference
-        input_embed = self.embed_layer(self.__random_topk__(pred = pred, k = 3))
+        input_embed = self.embed_layer(self.__random_topk__(pred = pred, k = 1))
 
     return torch.cat(preds, dim = 1)
 
